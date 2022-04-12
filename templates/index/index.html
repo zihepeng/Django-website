@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home page</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/styles.css'%}"> 	
+</head>
+<style>
+	body{
+    background-image: url("{% static 'image/wood.jpg' %}");
+	background-size: 100%;
+    color: ivory;
+}
+	footer {
+		padding: 30px;
+		text-align: center;
+	}
+	#navbar li{
+		 list-style:none;
+		 padding-left:20px;
+		 float:left;
+	}
+	#navbar a{
+		color:grey;
+	}
+	#navbar{
+		float:right;
+		padding-right:32px;
+	}
+	.intro{
+		padding: 50px;
+	}
+
+	#link li{
+		 list-style:none;
+		 padding-left:20px;
+		 float:left;
+	}
+	#link{
+		padding-left: 320px;
+	}
+
+</style>
+
+<body>
+<div class="nav">
+<ul id="navbar">
+<li><a href="/about-us" id="nav_home" class="active">HOME</a></li>
+<li><a href="movies" id="nav_movie" style = "color:grey;">MOVIES</a></li>
+
+<li><a href="https://wecinemas.com.sg/" id="nav_cinemas">CINEMAS</a></li>
+
+</ul>
+</div>
+<div class = "intro" style = "font-size:25px;" >
+	<h1>About us</h1>
+	<p><h4>We offer a range of training services and products, including</h4>
+		<ul>
+			<li>Customized training for playing basketball,</li>
+			<li>Training for origami design</li>
+			<li><a href = "movies" class = "insert"  style = "font-size:25px; color: #64b3d2;">Rent movies and TV-drama series</a></li>
+		</ul>
+	</p>
+</div>
+</body>
+
+
+<div id="footer">
+<br><br><br><br>
+
+
+<ul id = "link">
+<li><a href="https://wecinemas.com.sg/faq.aspx/">FAQs</a></li>
+<li><a href="https://wecinemas.com.sg/contactus.aspx/">Contact Us</a></li>
+<li><a href="https://www.cathaycineplexes.com.sg/tnc-general.aspx/">Terms of Use</a></li>
+<li><a href="https://www.cathaycineplexes.com.sg/privacy-policy.aspx/">Privacy Policy</a></li>
+<li><a href="https://cathaycinehome.com/en/">Cathay Cinehome</a></li>
+</ul>
+</div>
+
+<footer>
+	<div id="copyright">
+		&copy; WE Cinema. Enjoy!
+	</div>
+</footer>
+
+
+</html>

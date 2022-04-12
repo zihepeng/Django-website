@@ -1,0 +1,87 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>movie_insert.html</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+
+</head>
+<style>
+	body{
+    background-image: url("{% static 'image/wood.jpg' %}");
+	background-size: 100%;
+}</style>
+<body class = "movie_insert">
+ <form action="/movies_insert_handler/" method="post" enctype="multipart/form-data/">
+     {% csrf_token %}
+    <table>
+        <tr>
+            <td>movie name</td>
+            <td>
+
+                <input id = "mname"  name="mname" />
+                <div id="show">
+                   <ul></ul>
+                </div>
+            </td>
+        </tr>
+      <tr>
+            <td>movie duration</td>
+            <td>
+
+                <input id = "mduration"  name="mduration" />
+                <div id="show">
+                   <ul></ul>
+                </div>
+            </td>
+        </tr>
+       <tr>
+            <td>movie image</td>
+            <td>
+
+                <input id = "mimg"  name="mimg" />
+                <div id="show">
+                   <ul></ul>
+                </div>
+            </td>
+        </tr>
+          <tr>
+            <td>movie ticket</td>
+            <td>
+
+                <input id = "mticket"  name="mticket" />
+                <div id="show">
+                   <ul></ul>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>grade type</td>
+            <td>
+                <select name="mgradetype_id">
+                    {% for i in grade_list%}
+                        <option value="{{i.id}}">{{i.gradetype}}</option>
+                    {%endfor%}
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                 <input type="submit" />
+            </td>
+            <td colspan="2">
+                 <input type="reset">
+            </td>
+        </tr>
+    </table>
+ </form>
+    <div class = "back">
+        <a href="/about-us/movies"> <img style = "position:absolute; top:0%; left: 0%;" width = "50" src="/static/image/movie.png")/></a>
+    </div>
+</body>
+</html>
