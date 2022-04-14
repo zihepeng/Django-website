@@ -1,6 +1,6 @@
 # Django-website
 [comment] #(python manage.py runserver) <br>
-Use Django web-programming framework to implement a web server on the local host that is able to serve the following two user requests.
+Use Django web-programming framework to implement a web server on the local host that is able to serve the following two user requests. Add to insert, delete and show data from database through the webpages and also include a searching engine. 
 ### Files
 
 migration/
