@@ -1,5 +1,5 @@
 # Django-website
-[comment] #(command: python manage.py runserver to run webpage on localhost 8000) <br>
+[comment] # command: (python manage.py runserver) to run webpage on localhost 8000) <br>
 Use Django web-programming framework to implement a web server on the local host that is able to serve the following two user requests. Add to insert, delete and show data from database through the webpages and also include a searching engine. 
 ### Files
 
