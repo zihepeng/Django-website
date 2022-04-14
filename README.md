@@ -33,3 +33,6 @@ templates/
 
 #### Insert Page
 <img width="1436" alt="Screen Shot 2022-04-14 at 9 16 17 AM" src="https://user-images.githubusercontent.com/78551886/163296383-ad40d286-f5a1-4f98-ac20-a129f259a7a7.png">
+
+#### Database
+<img width="1436" alt="Screen Shot 2022-04-14 at 9 37 46 AM" src="https://user-images.githubusercontent.com/78551886/163296945-5998aa8b-63e9-4152-8daa-3282a3ce24eb.png">
