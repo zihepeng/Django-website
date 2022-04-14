@@ -25,3 +25,11 @@ templates/
 - movies.html --main page for showing database
 - results.html -- results for search engine
 
+#### Home Page
+<img width="1322" alt="Screen Shot 2022-04-14 at 9 15 23 AM" src="https://user-images.githubusercontent.com/78551886/163295998-e180534e-6922-4deb-bf92-cea7435801ca.png">
+
+#### Main Page
+<img width="1322" alt="Screen Shot 2022-04-14 at 9 15 52 AM" src="https://user-images.githubusercontent.com/78551886/163296347-787fbd0b-bc7b-41c8-a846-34073e4a6bad.png">
+
+#### Insert Page
+<img width="1436" alt="Screen Shot 2022-04-14 at 9 16 17 AM" src="https://user-images.githubusercontent.com/78551886/163296383-ad40d286-f5a1-4f98-ac20-a129f259a7a7.png">
